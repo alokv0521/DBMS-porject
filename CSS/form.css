@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(227, 230, 219, 0.696);;
+}
+.headingBox{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%);
+    height:35vh;
+    width: 70vw;
+    background-color: rgba(63, 60, 60, 0.29) ;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 2px 15px 25px rgba(0, 0, 0, 0.454);
+    text-transform: capitalize;
+    margin-top: -100px;
+}
+
+.headingBox h1{
+    position:relative;
+    right: -100px;
+}
+div h1{
+    margin: 5vh  18vw ;
+
+}
+
+.buttonContainer{
+    height:100px ;
+    width:300px;
+    position: relative;
+    left:53vh;
+    top:10px;
+    color: rgb(8, 147, 147);
+}
+div button{
+    padding:10px 20px;
+    background-color: rgba(44, 43, 43, 0.594);
+    border: 2px solid white;
+    color: white;
+
+
+}
+.update{
+    margin:0 20px 0 -20px;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+.buttonContainer a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+
+.delete{
+    text-transform: capitalize;
+}

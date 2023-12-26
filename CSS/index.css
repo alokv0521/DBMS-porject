@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:-6px;
+
+}
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(61, 49, 49, 0.507)),url(/image/pexels-eberhard-grossgasteiger-1367192.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box{
+    height:50vh;
+    width:30%;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+
+.nav{
+    height:90px;
+    background-color: rgba(7, 7, 7, 0.721);
+}
+
+H2.companyName{
+ color: rgba(227, 230, 219, 0.696);
+ font-size:50px;
+ font-weight: bold; 
+    margin: auto 100px;
+
+}
+
+nav ul{
+    float: right;
+ 
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: -50px;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    position: relative;
+    right: 400px;
+    bottom: 30px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: rgba(227, 230, 219, 0.696);
+    text-decoration: none;
+    transition:text-decoration 2s;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav button{
+
+   padding: 10px 20px;
+   position:absolute;
+   right:100px;
+   top:25px;
+   text-transform: uppercase;
+   background-color:rgba(7, 7, 7, 0.721);
+   border: 2px solid;
+   border-radius: 4px;
+   border-color: white;
+  
+}
+
+
+nav button:hover{
+cursor: pointer;
+}
+
+
+nav button a{
+color:white;
+text-decoration: none;
+font-size: 15px;
+}
+

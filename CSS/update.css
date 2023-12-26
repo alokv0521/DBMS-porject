@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(227, 230, 219, 0.696);;
+}
+.box{
+    position: absolute;
+    top:35%;
+    left:35%;
+    height:70vh;
+    width: 30vw;
+    background-color: rgba(63, 60, 60, 0.29) ;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 2px 15px 25px rgba(0, 0, 0, 0.454);
+    text-transform: capitalize;
+    margin-top: -100px;
+}
+
+.box form h1{
+    position:relative;
+    left:15%;
+    margin-bottom: 10%;
+    margin-top:10px;
+    margin-right:auto;
+}
+
+.inputName input{
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    position: absolute;
+    background-color:rgba(97, 96, 96, 0.251); 
+    padding: 3% 10%;
+    margin:0 8%;
+    color: rgba(203, 203, 203, 0.783);  
+}
+
+::placeholder{
+color: rgba(255, 255, 255, 0.82); 
+ 
+}
+
+
+.inputPsd input{
+    border:none;
+    border-radius: 3px;
+    font-size: 20px;
+    position: absolute;
+    padding:3% 10%;
+    margin: 20% 8% ;
+    color: rgba(224, 215, 215, 0.82);
+    background-color:rgba(97, 96, 96, 0.251) ;
+}
+.box h3{
+    position: absolute;
+   top: 50%; 
+   left: 52%;
+}
+.box button{
+    position: absolute;
+   top: 60%; 
+   left: 30%;
+   color:white;
+    background-color: rgba(57, 56, 56, 0.603) ;
+   font-size: 30px;
+   padding: 1.5% 8%;
+   border: 2px solid white;
+   text-transform: uppercase;
+   border-radius: 5px;
+    
+
+}
+.box button a{
+    text-decoration: none;
+}
+
+.box h4{
+    position: absolute;
+    top: 89%; 
+    left: 10%;
+
+
+}
+.box button.signup{
+    position: absolute;
+    top: 85%; 
+    left: 50%;
+
+
+}
